@@ -66,3 +66,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* ===== React Dark/Light Mode Overrides ===== */
+
+/* Light Mode (default override) */
+.light-mode {
+  background-color: #ffffff !important;
+  color: #213547 !important;
+  min-height: 100vh;
+}
+
+/* Dark Mode override */
+.dark-mode {
+  background-color: #121212 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  min-height: 100vh;
+}
